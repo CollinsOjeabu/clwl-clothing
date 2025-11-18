@@ -1,7 +1,20 @@
+/**
+ * LESSON: Data Flow & Component Composition (Props)
+ * 
+ * Key Concepts:
+ * 1. Data at Route Level: Keep data specific to a route at the route level
+ * 2. Props Down: Pass data as props to child components
+ * 3. Separation of Concerns: Home manages data, Directory displays it
+ * 4. Hard-coded vs API: This data is hard-coded, but should come from Firebase/API
+ * 
+ * Future: Replace with useEffect to fetch from Firebase
+ */
+
 import Directory from '../../components/directory/directory.component';
 
 const Home = () => {
 
+  // TODO: Move this to Firebase and use useEffect to fetch
   const categories = [
   {
     "id": 1,

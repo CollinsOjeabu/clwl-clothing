@@ -9,6 +9,7 @@ import reportWebVitals from './reportWebVitals';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    {/*wrap App in BrowserRouter to enable routing throughout the app*/}
     <BrowserRouter>
 
       <App />
